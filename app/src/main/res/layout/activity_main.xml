@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#88788A"
+    tools:context=".MainActivity">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/postButton"
+        android:layout_width="201dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/round_button"
+        android:fontFamily="@font/gelasio_bold"
+        android:gravity="center"
+        android:text="Post"
+        android:textAlignment="center"
+        android:textColor="#88788A"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.704"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/browseButton"
+        android:layout_width="250dp"
+        android:layout_height="27dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/round_button"
+        android:fontFamily="@font/gelasio_bold"
+        android:gravity="center"
+        android:text="Browse"
+        android:textAlignment="center"
+        android:textColor="#88788A"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="205dp"
+        android:layout_height="65dp"
+        android:fontFamily="@font/gelasio_bold"
+        android:text="Cabbage"
+        android:textAlignment="center"
+        android:textColor="#FFF17B"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.936" />
+
+
+    <TextView
+        android:id="@+id/emailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gelasio_bold"
+        android:text="Email ID"
+        android:textAlignment="center"
+        android:textColor="#fff17b"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.564" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/emailField"
+        android:layout_width="292dp"
+        android:layout_height="45dp"
+        android:background="@drawable/round_button"
+        android:backgroundTint="#eff0d8"
+        android:ems="10"
+        android:fontFamily="@font/gelasio_bold"
+        android:gravity="center_vertical|center_horizontal"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.631" />
+
+    <TextView
+        android:id="@+id/fieldMessage"
+        android:layout_width="281dp"
+        android:layout_height="125dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/gelasio_bold"
+        android:text="Enter details of your field of interest for reserach or study partner. Also enter your student email id "
+        android:textAlignment="center"
+        android:textColor="#fff17b"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.262" />
+
+    <TextView
+        android:id="@+id/fieldMessage"
+        android:layout_width="204dp"
+        android:layout_height="95dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/gelasio_bold"
+        android:text="Find Research Partners! "
+        android:textAlignment="center"
+        android:textColor="#fff17b"
+        android:textSize="27sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.108"
+        tools:ignore="DuplicateIds" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/detailField"
+        android:layout_width="341dp"
+        android:layout_height="128dp"
+        android:background="@drawable/round_button"
+        android:backgroundTint="#eff0d8"
+        android:ems="10"
+        android:fontFamily="@font/gelasio_bold"
+        android:gravity="center_vertical|center_horizontal"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.418" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="117dp"
+        android:layout_height="105dp"
+        android:src="@drawable/artboard"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.865"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

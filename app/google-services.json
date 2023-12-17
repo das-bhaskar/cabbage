@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "103372438764",
+    "project_id": "cabbage-44135",
+    "storage_bucket": "cabbage-44135.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103372438764:android:b9c2fa442a6cd6b415b9c9",
+        "android_client_info": {
+          "package_name": "bhaskar.charles.cabbage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT0frG334gk9cYUs4d-Dg4PF_REEGc-nY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

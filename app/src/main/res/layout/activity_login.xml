@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#88788A"
+
+    android:theme="@style/NoTheme"
+
+    tools:context=".login">
+
+    <TextView
+        android:id="@+id/passwordText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gelasio_bold"
+        android:text="Password"
+        android:textAlignment="center"
+        android:textColor="#fff17b"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/passwordLoginEnter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/emailText"
+        app:layout_constraintVertical_bias="0.894" />
+
+    <TextView
+        android:id="@+id/loginMessage"
+        android:layout_width="306dp"
+        android:layout_height="71dp"
+        android:fontFamily="@font/gelasio_bold"
+        android:text="Login With Your University or School ID"
+        android:textAlignment="gravity"
+        android:textColor="#FFF17B"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.124" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/emailLoginEnter"
+        android:layout_width="292dp"
+        android:layout_height="45dp"
+        android:background="@drawable/round_button"
+        android:backgroundTint="#eff0d8"
+        android:ems="10"
+        android:fontFamily="@font/gelasio_bold"
+        android:gravity="center_vertical|center_horizontal"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.341" />
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="205dp"
+        android:layout_height="65dp"
+        android:fontFamily="@font/gelasio_bold"
+        android:text="Cabbage"
+        android:textAlignment="center"
+        android:textColor="#FFF17B"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.936" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/loginButton"
+        android:layout_width="201dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/round_button"
+        android:fontFamily="@font/gelasio_bold"
+        android:gravity="center"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="#88788A"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.673"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/passwordLoginEnter"
+        android:layout_width="292dp"
+        android:layout_height="45dp"
+        android:background="@drawable/round_button"
+        android:backgroundTint="#eff0d8"
+        android:ems="10"
+        android:fontFamily="@font/gelasio_bold"
+        android:gravity="center_vertical|center_horizontal"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="#7f807d"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.479" />
+
+    <TextView
+        android:id="@+id/emailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gelasio_bold"
+        android:text="Email ID"
+        android:textAlignment="center"
+        android:textColor="#fff17b"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/emailLoginEnter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginMessage"
+        app:layout_constraintVertical_bias="0.793" />
+
+    <TextView
+        android:id="@+id/registerNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gelasio_bold"
+        android:gravity="center"
+        android:text="@string/click_to_register"
+        android:textAlignment="center"
+        android:textColor="#fff17b"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.721"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="117dp"
+        android:layout_height="105dp"
+        android:src="@drawable/artboard"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.865"
+        tools:srcCompat="@tools:sample/avatars" />
+    />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

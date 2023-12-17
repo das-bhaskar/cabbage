@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">cabbage</string>
+    <string name="click_to_login">Click to login</string>
+    <string name="click_to_register">Click to register</string>
+</resources>
